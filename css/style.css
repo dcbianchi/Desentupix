@@ -4,6 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    background: 
 }
 
 
@@ -51,18 +52,30 @@
 *********************************************/
 
 .Content {
+    clear: both;
     text-align: center;
     align-items: center;
     display: flex;
+    border: solid red 1px;
+    margin: auto;
 }
 
 .Collum {
-    height: 450px;
+    height: 400px;
     width: 350px;
+    background: #919192;
     Border: 1px solid black;
     border-radius: 5px;
     float: Left;
-    margin: 15px 15px 0px 0px;
+    margin: 0px 15px 0px 0px;
+}
+
+.Img {
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid black 1px;
+    margin: 5px 3px 3px 3px;
 }
 
 /********************************************
@@ -83,7 +96,7 @@
     padding: 5px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 15px;
     background-color: #1D1E43;;
 }
 
