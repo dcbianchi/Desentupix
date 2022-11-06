@@ -1,0 +1,82 @@
+/********************************************
+...::: Formatação Geral do Site :::...
+********************************************/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/********************************************
+...::: Formatação do Cabeçalho 1 :::...
+********************************************/
+.Header {
+    background: #1D1E43;
+    height: 50px;
+}
+
+.Tipographic {
+    color: white;
+    font-size: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.Phone{
+    float: right;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    padding: 0px 25px 0px 0px;
+}
+
+.PhoneIcon {
+    color: white;
+    padding: 3px; 
+    height: 45px;
+    text-align: right;
+    display:inline;
+}
+
+/********************************************
+...::: Formatação do menu :::...
+*********************************************/
+
+/*
+body.Home #Navegacao a#Home,
+body.Servicos #Navegacao a#Servicos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+*/
+/********************************************
+...::: Formatação do Rodapé:::...
+********************************************/
+#Footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 45px;
+    background-color: #1D1E43;;
+}
+
+.FooterIcon{
+    margin: 10px;
+    text-decoration: none;
+    filter: invert(99%)
+}
+
+#Footer p{
+    color: white;
+}
+
+#dcbianchi {
+    color: red;
+    text-decoration: underline;
+}
