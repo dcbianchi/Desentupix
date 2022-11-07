@@ -4,7 +4,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    background: 
 }
 
 
@@ -12,13 +11,11 @@
 ...::: Formatação do Cabeçalho 1 :::...
 ********************************************/
 .Header {
-    background: #1D1E43;
+    background: #FF8C00;
     height: 50px;
 }
 
 .Tipographic {
-    color: white;
-    font-size: 30px;
     float: left;
     display: flex;
     align-items: center;
@@ -34,13 +31,12 @@
     float: right;
     display: flex;
     align-items: center;
-    color: white;
+    color: #000000;
     font-size: 25px;
     padding: 0px 25px 0px 0px;
 }
 
 .PhoneIcon {
-    color: white;
     padding: 3px; 
     height: 45px;
     text-align: right;
@@ -62,8 +58,8 @@
 .Collum {
     height: 400px;
     width: 350px;
-    background: #1D1E43;
-    color: #ffffff;
+    background: #FF8C00;
+    color: #000000;
     Border: 1px solid black;
     border-radius: 10px;
     float: Left;
@@ -101,20 +97,19 @@
     text-align: center;
     margin: 0 auto;
     margin-top: 11px;
-    background-color: #1D1E43;;
+    background-color: #FF8C00;;
 }
 
 .FooterIcon{
     margin: 10px;
     text-decoration: none;
-    filter: invert(99%)
 }
 
 #Footer p{
-    color: white;
+    color: #000000;
 }
 
 #dcbianchi {
-    color: red;
+    color: #ffffff;
     text-decoration: underline;
 }
